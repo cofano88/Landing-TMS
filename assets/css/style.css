@@ -29,6 +29,7 @@
 header {
   background-image: url(../img/header.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .filter-header {
@@ -89,7 +90,7 @@ nav {
   width: 45%;
 }
 
-.join-title:after {
+.join-title::after {
   display: block;
   width: 62px;
   border-top: 3px solid #ffffff;
@@ -116,7 +117,6 @@ nav {
   background-color: #ffffff;
   padding-top: 25px;
   padding-bottom: 25px;
-  height: 105px;
 }
 
 .brandbar-content {
@@ -235,6 +235,7 @@ nav {
 .our-process {
   border: 0.1px solid transparent;
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .promo-title {
@@ -245,7 +246,7 @@ nav {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   text-align: center;
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 
 .promo-content {
@@ -335,6 +336,7 @@ nav {
 .pricing {
   background-color: #f5f5f5;
   padding-bottom: 80px;
+  padding-top: 100px;
 }
 
 .pricing-slots {
@@ -418,11 +420,11 @@ nav {
   font-weight: 400;
   text-align: center;
   background-color: #ffffff;
-  padding-inline-start: 0;
+  padding-left: 0;
   text-transform: uppercase;
 }
 
-ul.features li {
+.features li {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #f5f5f5;
@@ -457,7 +459,7 @@ ul.features li {
   border-top: 10px solid #f5f5f5;
   position: absolute;
   top: 100%;
-  right: 83%;
+  left: 25px;
 }
 
 .author {
@@ -549,13 +551,13 @@ footer {
   padding-bottom: 10px;
 }
 
-.fab {
+.social .fab {
   font-size: 24px;
   color: #cccccc;
   margin-right: 20px;
 }
 
-.fab:last-child {
+.social .fab:last-child {
   margin-right: 0;
 }
 
