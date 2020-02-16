@@ -21,30 +21,26 @@
   background-color: transparent;
   border: 1px solid white;
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   padding: 10px 30px;
 }
 
 header {
-  height: auto;
-  width: 100%;
   background-image: url(../img/header.jpg);
   background-position: center;
-  border: 0.1px solid transparent;
 }
 
 .filter-header {
-  height: inherit;
-  width: inherit;
   background-color: rgba(0, 0, 0, 0.4);
 }
+
 .navbar {
   height: 70px;
   background-color: black;
 }
 
-img.smalllogo {
+.small-logo {
   display: inline-block;
   height: 30px;
   width: auto;
@@ -61,7 +57,7 @@ nav {
 .navs {
   font-size: 14px;
   color: #86878b;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   text-decoration: none;
   padding-right: 45px;
@@ -88,7 +84,7 @@ img.biglogo {
   font-size: 36px;
   line-height: 1.2;
   color: #ffffff;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   width: 45%;
 }
@@ -106,7 +102,7 @@ img.biglogo {
   font-size: 14px;
   line-height: 1.6;
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   width: 45%;
 }
@@ -131,24 +127,23 @@ img.biglogo {
 .brandbar-title {
   font-size: 20px;
   color: #333333;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
 
-.brandbar-p {
+.brandbar-paragraph {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.4;
   color: #86878b;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
 
 .brandbar-icons {
   float: left;
   width: 60%;
-  font-size: 48px;
+  /* font-size: 48px; */
   color: #cccccc;
-  font-family: "Font Awesome";
   padding-left: 200px;
 }
 
@@ -178,9 +173,9 @@ img.biglogo {
 .tab {
   background-color: #333333;
   font-size: 15px;
-  line-height: 20px;
+  line-height: 1.4;
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   width: 110px;
   height: 110px;
@@ -195,7 +190,7 @@ img.biglogo {
   border-bottom-right-radius: 4px;
 }
 
-.orangetab {
+.active-tab {
   background-color: #ff8b38;
   border-bottom: 2px solid #86878b;
   border-top-left-radius: 4px;
@@ -212,15 +207,15 @@ img.biglogo {
 .middle-title {
   font-size: 20px;
   color: #000000;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
 
 .middle-content {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.4;
   color: #86878b;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   padding-top: 60px;
 }
@@ -239,7 +234,6 @@ img.biglogo {
 
 .our-process {
   border: 0.1px solid transparent;
-  /* padding-top: 100px; */
   padding-bottom: 100px;
 }
 
@@ -248,7 +242,7 @@ img.biglogo {
   font-size: 36px;
   line-height: 1.2;
   color: #212121;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   text-align: center;
   padding-top: 100px;
@@ -260,7 +254,7 @@ img.biglogo {
   font-size: 14px;
   line-height: 1.6;
   color: #86878b;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -280,9 +274,9 @@ img.biglogo {
 
 .item-title {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   color: #333333;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   text-align: center;
   padding-top: 30px;
@@ -290,9 +284,9 @@ img.biglogo {
 
 .item-content {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.4;
   color: #86878b;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   text-align: center;
   padding-top: 30px;
@@ -340,7 +334,6 @@ img.biglogo {
 
 .pricing {
   background-color: #f5f5f5;
-  /* padding-top: 100px; */
   padding-bottom: 80px;
 }
 
@@ -368,7 +361,7 @@ img.biglogo {
   font-size: 20px;
   line-height: 1.2;
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   text-align: center;
   border-bottom: 1px solid white;
@@ -380,7 +373,7 @@ img.biglogo {
   font-size: 80px;
   line-height: 0.7;
   color: #ffffff;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-align: center;
   border-bottom: 1px solid #999999;
@@ -388,15 +381,15 @@ img.biglogo {
   padding-bottom: 15px;
 }
 
-span {
+.dollar {
   font-size: 34px;
 }
 
 .card-subtext {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: #999999;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   text-align: center;
   border-bottom: 2px solid #ff8b38;
@@ -406,9 +399,9 @@ span {
 
 .mostpop {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   text-align: center;
   background-color: #ff8b38;
@@ -419,9 +412,9 @@ span {
 .features {
   list-style-type: none;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: #86878b;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   text-align: center;
   background-color: #ffffff;
@@ -429,7 +422,7 @@ span {
   text-transform: uppercase;
 }
 
-li {
+ul.features li {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #f5f5f5;
@@ -476,7 +469,7 @@ li {
   float: left;
 }
 
-.who {
+.person {
   float: left;
   padding-left: 15px;
   padding-top: 15px;
@@ -485,14 +478,14 @@ li {
 .name {
   font-size: 20px;
   color: #333333;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
 
 .position {
   font-size: 14px;
   color: #86878b;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -501,12 +494,9 @@ li {
   background-image: url(../img/custom.jpg);
   background-position: center;
   height: 300px;
-  width: 100%;
 }
 
 .filter-custom {
-  height: inherit;
-  width: inherit;
   padding-top: 70px;
   padding-bottom: 60px;
   background-color: rgba(0, 0, 0, 0.4);
@@ -515,7 +505,7 @@ li {
 .custom-title {
   font-size: 36px;
   color: #ffffff;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   text-align: center;
   text-transform: uppercase;
   margin-block-start: 0;
@@ -536,7 +526,7 @@ li {
 .custom-content {
   font-size: 16px;
   color: #ffffff;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   text-align: center;
   padding-bottom: 35px;
@@ -572,7 +562,7 @@ footer {
 .copy {
   font-size: 12px;
   color: #cccccc;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   text-align: center;
 }
