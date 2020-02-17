@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  /* margin-block-start: 0;
+  margin-block-end: 0; */
 }
 
 .clearfix::after {
@@ -27,32 +27,32 @@
 }
 
 header {
-  background-image: url(../img/header.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../img/header.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.filter-header {
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
 .navbar {
-  height: 70px;
   background-color: black;
 }
 
 .small-logo {
-  display: inline-block;
   height: 30px;
   width: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
 }
 
 nav {
-  display: inline-block;
-  position: absolute;
-  top: 32px;
-  left: 850px;
+  float: left;
+  margin-top: 25px;
+  margin-left: 565px;
 }
 
 .navs {
@@ -88,6 +88,8 @@ nav {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   width: 45%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .join-title::after {
@@ -106,6 +108,8 @@ nav {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   width: 45%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .join-button {
@@ -129,6 +133,8 @@ nav {
   color: #333333;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .brandbar-paragraph {
@@ -137,6 +143,8 @@ nav {
   color: #86878b;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .brandbar-icons {
@@ -182,6 +190,8 @@ nav {
   text-transform: uppercase;
   padding-top: 45px;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .tab:last-child {
@@ -209,6 +219,8 @@ nav {
   color: #000000;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .middle-content {
@@ -218,6 +230,8 @@ nav {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   padding-top: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .middle-button {
@@ -246,7 +260,6 @@ nav {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   text-align: center;
-  /* padding-top: 100px; */
 }
 
 .promo-content {
@@ -281,6 +294,8 @@ nav {
   font-weight: 700;
   text-align: center;
   padding-top: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .item-content {
@@ -291,6 +306,8 @@ nav {
   font-weight: 400;
   text-align: center;
   padding-top: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .item {
@@ -373,14 +390,13 @@ nav {
 
 .card-price {
   font-size: 80px;
-  line-height: 0.7;
+  line-height: 1;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-align: center;
   border-bottom: 1px solid #999999;
   padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .dollar {
@@ -422,6 +438,8 @@ nav {
   background-color: #ffffff;
   padding-left: 0;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .features li {
@@ -433,6 +451,10 @@ nav {
 .reviews {
   padding-top: 50px;
   padding-bottom: 100px;
+}
+
+.testimonials .promo-title {
+  padding-top: 100px;
 }
 
 .review {
@@ -475,6 +497,8 @@ nav {
   float: left;
   padding-left: 15px;
   padding-top: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .name {
@@ -482,6 +506,8 @@ nav {
   color: #333333;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .position {
@@ -493,15 +519,17 @@ nav {
 
 .custom {
   border: 0.1px solid transparent;
-  background-image: url(../img/custom.jpg);
-  background-position: center;
-  height: 300px;
-}
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../img/custom.jpg);
 
-.filter-custom {
+  background-position: center;
+  background-size: cover;
   padding-top: 70px;
   padding-bottom: 60px;
-  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .custom-title {
@@ -532,6 +560,8 @@ nav {
   font-weight: 300;
   text-align: center;
   padding-bottom: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .custom-button {
