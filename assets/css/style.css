@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
-  /* margin-block-start: 0;
-  margin-block-end: 0; */
+  margin: 0;
 }
 
 .clearfix::after {
@@ -50,9 +49,8 @@ header {
 }
 
 nav {
-  float: left;
+  float: right;
   margin-top: 25px;
-  margin-left: 565px;
 }
 
 .navs {
@@ -88,8 +86,6 @@ nav {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   width: 45%;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .join-title::after {
@@ -108,8 +104,6 @@ nav {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   width: 45%;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .join-button {
@@ -133,8 +127,6 @@ nav {
   color: #333333;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .brandbar-paragraph {
@@ -143,14 +135,11 @@ nav {
   color: #86878b;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .brandbar-icons {
   float: left;
   width: 60%;
-  /* font-size: 48px; */
   color: #cccccc;
   padding-left: 200px;
 }
@@ -190,8 +179,6 @@ nav {
   text-transform: uppercase;
   padding-top: 45px;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .tab:last-child {
@@ -219,8 +206,6 @@ nav {
   color: #000000;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .middle-content {
@@ -230,8 +215,6 @@ nav {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   padding-top: 60px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .middle-button {
@@ -294,8 +277,6 @@ nav {
   font-weight: 700;
   text-align: center;
   padding-top: 30px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .item-content {
@@ -306,8 +287,6 @@ nav {
   font-weight: 400;
   text-align: center;
   padding-top: 30px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .item {
@@ -437,9 +416,6 @@ nav {
   text-align: center;
   background-color: #ffffff;
   padding-left: 0;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .features li {
@@ -497,8 +473,6 @@ nav {
   float: left;
   padding-left: 15px;
   padding-top: 15px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .name {
@@ -506,8 +480,6 @@ nav {
   color: #333333;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .position {
@@ -525,9 +497,9 @@ nav {
       rgba(0, 0, 0, 0.4)
     ),
     url(../img/custom.jpg);
-
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 70px;
   padding-bottom: 60px;
 }
@@ -538,8 +510,6 @@ nav {
   font-family: "Raleway", sans-serif;
   text-align: center;
   text-transform: uppercase;
-  margin-block-start: 0;
-  margin-block-end: 0;
   padding-bottom: 30px;
 }
 
@@ -560,8 +530,6 @@ nav {
   font-weight: 300;
   text-align: center;
   padding-bottom: 35px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .custom-button {
