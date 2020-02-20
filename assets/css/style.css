@@ -616,7 +616,7 @@ nav {
   margin-bottom: 40px;
 }
 
-.contact-form div input {
+.form-inputs input {
   width: 100%;
   font-size: 14px;
   color: #bdbdbd;
@@ -628,7 +628,7 @@ nav {
   border-bottom: 1px solid #bdbdbd;
 }
 
-.contact-form div input:last-child {
+.form-inputs input:last-child {
   margin-bottom: 0;
 }
 
