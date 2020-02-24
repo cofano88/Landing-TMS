@@ -17,17 +17,19 @@
     <header>
       <div class="navbar">
         <div class="container clearfix">
-          <img class="small-logo" src="assets/img/logo.png" alt="" />
+          <a class="main-link" href="index.html"
+            ><img class="small-logo" src="assets/img/logo.png" alt=""
+          /></a>
           <nav>
-            <a href="#" class="navs">Features</a>
-            <a href="#" class="navs">About </a>
-            <a href="#" class="navs">Pricing </a>
-            <a href="#" class="navs">Reviews </a>
-            <a href="#" class="navs">Contact </a>
+            <a href="#features" class="navs">Features</a>
+            <a href="#about" class="navs">About </a>
+            <a href="#pricing" class="navs">Pricing </a>
+            <a href="#reviews" class="navs">Reviews </a>
+            <a href="#contact" class="navs">Contact </a>
           </nav>
         </div>
       </div>
-      <div class="join">
+      <main class="join">
         <div class="container clearfix">
           <div class="join-form-block">
             <div class="join-form-header">
@@ -58,7 +60,7 @@
             <button class="join-button button">Download</button>
           </div>
         </div>
-      </div>
+      </main>
       <div class="brandbar">
         <div class="container clearfix">
           <div class="brandbar-content">
@@ -80,28 +82,35 @@
       </div>
     </header>
 
-    <div class="features-block">
+    <a name="features"></a>
+    <section class="features-block">
       <div class="container clearfix">
         <div class="tabs">
           <p class="tab active-tab">Tab1</p>
           <p class="tab">tab2</p>
           <p class="tab">tab3</p>
         </div>
-        <div class="middle">
-          <h3 class="middle-title">Tabs with soft transitioning effect.</h3>
-          <p class="middle-content">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-            perspiciatis quas excepturi optio, dolor deserunt ipsa distinctio
-            incidunt asperiores nam libero, magni commodi sint officiis.
-          </p>
-          <button class="middle-button button">Download</button>
+        <div class="features-promo clearfix">
+          <div class="pic-features">
+            <img src="assets/img/image_right.png" alt="" />
+          </div>
+          <div class="middle">
+            <h3 class="middle-title">Tabs with soft transitioning effect.</h3>
+            <p class="middle-content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Accusamus perspiciatis quas excepturi optio, dolor deserunt ipsa
+              distinctio incidunt asperiores nam libero, magni commodi sint
+              officiis.
+            </p>
+            <button class="middle-button button">Download</button>
+          </div>
         </div>
-        <div class="pic"><img src="assets/img/image_right.png" alt="" /></div>
       </div>
-    </div>
+    </section>
 
-    <div class="container our-process">
-      <h3 class="promo-title">why this is awesome</h3>
+    <a name="about"></a>
+    <section class="container our-process">
+      <h2 class="promo-title">why this is awesome</h2>
       <p class="promo-content">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit.
       </p>
@@ -142,9 +151,10 @@
           </p>
         </div>
       </section>
-    </div>
+    </section>
 
-    <div class="pricing ">
+    <a name="pricing"></a>
+    <section class="pricing ">
       <div class="container">
         <h2 class="promo-title">pricing options</h2>
         <p class="promo-content">
@@ -199,9 +209,10 @@
           </div>
         </section>
       </div>
-    </div>
+    </section>
 
-    <div class="testimonials">
+    <a name="reviews"></a>
+    <section class="testimonials">
       <div class="container">
         <h2 class="promo-title">WHAT OUR CUSTOMERS ARE SAYING</h2>
         <p class="promo-content">
@@ -262,42 +273,45 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="custom">
+    <section class="custom">
       <div class="container">
-        <p class="custom-title">stylish axure design</p>
+        <h2 class="custom-title">stylish axure design</h2>
         <p class="custom-content">
           Use the sections you need, remove the ones you don't. Create gorgeous
           prototypes faster than ever!
         </p>
         <button class="custom-button button">Download</button>
       </div>
-    </div>
+    </section>
 
-    <div class="contact">
+    <a name="contact"></a>
+    <section class="contact">
       <div class="container">
         <h2 class="promo-title">CONTACT US</h2>
         <p class="promo-content">
           Lorem ipsum dolor sit amet consectetur adipisicing elit..
         </p>
-        <form action="#" class="contact-form clearfix">
-          <div class="form-inputs">
-            <input type="name" name="name" id="" placeholder="Name" />
-            <input type="email" name="email" id="" placeholder="Email" />
-            <input type="text" name="subject" id="" placeholder="Subject" />
+        <form action="#" class="contact-form">
+          <div class="form-wrap clearfix">
+            <div class="form-inputs">
+              <input type="name" name="name" id="" placeholder="Name" />
+              <input type="email" name="email" id="" placeholder="Email" />
+              <input type="text" name="subject" id="" placeholder="Subject" />
+            </div>
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
           </div>
-          <textarea
-            name="message"
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="Message"
-          ></textarea>
-          <input type="button" value="Send Message" />
+          <input type="submit" value="Send Message" />
         </form>
       </div>
-    </div>
+    </section>
 
     <footer>
       <div class="container">
