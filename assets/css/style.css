@@ -852,7 +852,7 @@ footer {
   }
 
   .slot + .slot {
-    padding-top: 70px;
+    padding-top: 50px;
   }
 
   .card-price {
@@ -893,6 +893,12 @@ footer {
     width: 100%;
     padding: 45px;
   }
+
+  .promo-title,
+  .custom-title,
+  .join-title {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (max-width: 530px) {
@@ -915,10 +921,20 @@ footer {
 
   .navs {
     display: block;
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .brandbar-icons i {
     margin-right: 10px;
+  }
+
+  .slot + .slot {
+    padding-top: 30px;
+  }
+
+  .promo-title,
+  .custom-title,
+  .join-title {
+    font-size: 22px;
   }
 }
