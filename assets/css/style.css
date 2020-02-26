@@ -30,15 +30,9 @@
 }
 
 header {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url(../img/header.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  object-fit: cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/header.jpg) center no-repeat;
+  background-size: cover;
 }
 
 .navbar {
@@ -401,7 +395,7 @@ nav {
 }
 
 .item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .far,
@@ -594,16 +588,9 @@ nav {
 }
 
 .custom {
-  border: 0.1px solid transparent;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url(../img/custom.jpg);
-  background-position: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/custom.jpg) center no-repeat;
   background-size: cover;
-  background-repeat: no-repeat;
   padding-top: 70px;
   padding-bottom: 60px;
 }
@@ -760,11 +747,17 @@ footer {
     padding: 35px 0;
   }
 
+  .join-inner {
+    display: flex;
+    flex-direction: column;
+  }
+
   .join-form-block {
     float: none;
-    padding-top: 0;
-    max-width: 500px;
-    margin: auto;
+    padding-top: 80px;
+    order: 1;
+    width: 80%;
+    align-self: center;
   }
 
   .join-form-header {
@@ -774,7 +767,7 @@ footer {
   .join-promo-block {
     max-width: 80%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
   }
 
